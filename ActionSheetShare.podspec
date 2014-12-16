@@ -11,5 +11,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/slecoustre/ActionSheetShare.git", :tag => "0.1" }
   s.source_files  = "Classes", "Classes/**/*.{h,m}"
   s.dependency "pop", "~> 1.0.7"
+  s.requires_arc = false
 
 end
